@@ -251,3 +251,4 @@ def search_func(value):
                 result['des'] = item.select('.book-mid-info .intro')[0].text
             data.append(result)
     return json.dumps(data)
+print("hello woeld")
